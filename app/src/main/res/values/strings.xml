@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="lab_1">Lab 1</string>
+    <string name="send">Send</string>
+    <string name="lab_2">Lab 2</string>
+    <string name="click">Click</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="exit">Exit</string>
+    <string name="button">Button</string>
+    <string name="left_50">Left 50%</string>
+    <string name="right_50">Right 50%</string>
+    <string name="center">Center</string>
+    <string name="center_left">Center left</string>
+    <string name="center_right">Center right</string>
+    <string name="colored_button">Colored button</string>
+    <string name="lab_3">Lab 3</string>
+    <string name="fill_database">Fill database</string>
+    <string name="id">ID</string>
+    <string name="fio">FIO</string>
+    <string name="add">Add</string>
+    <string name="rename">Rename</string>
+    <string name="show_db">Show DB</string>
+    <string name="students">Students</string>
+    <string name="clear_db">Clear DB</string>
+    <string name="create_database">Create database</string>
+    <string name="db_empty">Database not created! Press create database button</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="patronymic">Patronymic</string>
+    <string-array name="db_version">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
