@@ -29,6 +29,8 @@
     <string name="name">Name</string>
     <string name="last_name">Last name</string>
     <string name="patronymic">Patronymic</string>
+    <string name="lab_4">Lab 4</string>
+    <string name="music_list">Music list</string>
     <string-array name="db_version">
         <item>1</item>
         <item>2</item>

@@ -39,6 +39,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="onLab3"
                 android:text="@string/lab_3" />
+
+            <Button
+                android:id="@+id/lab4_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onLab4"
+                android:text="@string/lab_4" />
         </LinearLayout>
     </ScrollView>
 
