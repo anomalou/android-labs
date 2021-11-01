@@ -31,6 +31,14 @@
     <string name="patronymic">Patronymic</string>
     <string name="lab_4">Lab 4</string>
     <string name="music_list">Music list</string>
+    <string name="type_id">Type ID</string>
+    <string name="download">Download</string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="lab_5">Lab 5</string>
+    <string name="don_t_show_on_start_up">Don\'t show on start up</string>
+    <string name="useless_tip">There should be tips, but i forget make its</string>
+    <string name="restore_tip">Restore tip</string>
     <string-array name="db_version">
         <item>1</item>
         <item>2</item>

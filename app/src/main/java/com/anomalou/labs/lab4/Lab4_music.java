@@ -58,7 +58,7 @@ public class Lab4_music extends AppCompatActivity {
 
                         connection.connect();
 
-                        int responseCode= connection.getResponseCode();
+                        int responseCode = connection.getResponseCode();
 
                         ByteArrayOutputStream baos = new ByteArrayOutputStream();
 

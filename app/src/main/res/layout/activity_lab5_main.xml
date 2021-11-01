@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    tools:context=".lab5.Lab5_main">
+
+    <EditText
+        android:id="@+id/id_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/type_id"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="TextContrastCheck" />
+
+    <ProgressBar
+        android:id="@+id/downloadProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:min="0"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/donwload_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDownload"
+        android:text="@string/download" />
+
+    <Button
+        android:id="@+id/view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onView"
+        android:text="@string/view" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDelete"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/restore_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRestoreTip"
+        android:text="@string/restore_tip" />
+
+</LinearLayout>

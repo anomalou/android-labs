@@ -10,6 +10,7 @@ import com.anomalou.labs.lab1.*;
 import com.anomalou.labs.lab2.Lab2_menu;
 import com.anomalou.labs.lab3.Lab3_control;
 import com.anomalou.labs.lab4.Lab4_music;
+import com.anomalou.labs.lab5.Lab5_main;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onLab4(View view){
         Intent intent = new Intent(this, Lab4_music.class);
+        startActivity(intent);
+        this.finish();
+    }
+
+    public void onLab5(View view){
+        Intent intent = new Intent(this, Lab5_main.class);
         startActivity(intent);
         this.finish();
     }
